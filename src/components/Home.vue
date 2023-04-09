@@ -1,13 +1,13 @@
 <template>
-  <Home />
+  <Escena />
 </template>
 
 <script>
-import Home from "./components/Home.vue"
+import Escena from "./Escena.vue"
 
 export default {
   components: {
-    Home
+    Escena
   }
 }
 </script>
