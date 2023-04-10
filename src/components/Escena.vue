@@ -1,3 +1,11 @@
 <template>
-  <p>El nostre heroi estava surant per l'espai sideral quan a la llunyania va albirar una nau espacial.</p>
+  <p v-for="frase in frases">
+    {{ frase }}
+  </p>
 </template>
+
+<script>
+export default {
+  props: ["frases"]
+}
+</script>

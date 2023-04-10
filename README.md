@@ -12,9 +12,15 @@ This sprint introduces Vue! The project brief is the following:
 
 **— Exercise 1**
 
--
+- Make two components, `Home` and `Escena`. `Home` is imported inside `App`, and `Escena` is imported inside `Home`.
 
-##### ✅ Finished: -
+##### ✅ Finished: 09/04/2023
+
+**— Exercise 2**
+
+- Import a JSON file in `Home` and store its contents in the component data, then pass it to `Escena` as a prop. Render the value of the prop (which is an array of phrases) as a list with `v-for`.
+
+##### ✅ Finished: 10/04/2023
 
 ---
 
