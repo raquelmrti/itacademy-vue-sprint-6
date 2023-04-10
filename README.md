@@ -22,6 +22,12 @@ This sprint introduces Vue! The project brief is the following:
 
 ##### ✅ Finished: 10/04/2023
 
+**— Exercise 3**
+
+- Apply (very light) styling to 'Escena'.
+
+##### ✅ Finished: 10/04/2023
+
 ---
 
 ### ⭐⭐ **Level 2** ⭐⭐
