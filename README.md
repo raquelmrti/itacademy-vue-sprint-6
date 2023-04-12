@@ -36,6 +36,12 @@ This sprint introduces Vue! The project brief is the following:
 
 ### ⭐⭐ **Level 2** ⭐⭐
 
+**— Exercise 5**
+
+- Make a Welcome page that shows before the list of phrases, and add a start button that displays the phrases when clicked on. I had to use the `v-if` directive for this.
+
+##### ✅ Finished: 12/04/2023
+
 ---
 
 ### ⭐⭐⭐ **Level 3** ⭐⭐⭐
