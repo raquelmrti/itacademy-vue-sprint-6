@@ -26,7 +26,11 @@ This sprint introduces Vue! The project brief is the following:
 
 - Apply (very light) styling to 'Escena'.
 
-##### ✅ Finished: 10/04/2023
+**— Exercise 4**
+
+- Add `Botons` component, which contains two buttons ("Back" and "Next") that, when clicked on, highlights the next or previous sentence in our list of phrases. This is done by having the buttons emit an event that the parent component (`Home`) catches and performs a method with it, and then passes the result to `Escena` via a prop.
+
+##### ✅ Finished: 12/04/2023
 
 ---
 
