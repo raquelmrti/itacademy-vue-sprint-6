@@ -45,3 +45,13 @@ This sprint introduces Vue! The project brief is the following:
 ---
 
 ### ⭐⭐⭐ **Level 3** ⭐⭐⭐
+
+**— Exercise 6**
+
+- Add a dynamic background image to `Home`, which should change every time the back or next buttons are clicked and display the imaged associated to the phrase being highlighted.
+
+✏️ Notes:
+
+- I had a lot of trouble getting the background images to work, as I kept getting a 404 error even though the file path was correct. I was able to fix it by moving the images to the public folder.
+
+##### ✅ Finished: 17/04/2023

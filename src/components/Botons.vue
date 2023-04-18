@@ -1,14 +1,13 @@
 <template>
-  <button @click="$event => $emit('clickedBtn', 'back')">Anterior</button>
-  <button @click="$event => $emit('clickedBtn', 'next')">Següent</button>
+  <button @click="$event => $emit('backOrForward', 'back')">Anterior</button>
+  <button @click="$event => $emit('backOrForward', 'next')">Següent</button>
 </template>
 
 <script>
 export default {
-  name: "Botons",
-  emits: ["clickedBtn"]
+  name: 'Botons',
+  emits: ['backOrForward']
 }
-
 </script>
 
 <style scoped>

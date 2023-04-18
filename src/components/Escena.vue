@@ -1,12 +1,12 @@
 <template>
-  <p v-for="(frase, i) in frases" :key="i" :class="{ active: i === currentSentence }">
-    {{ frase }}
+  <p v-for='(frase, i) in frases' :key='i' :class='{ active: i === currentSentence }'>
+    {{ frase.txt }}
   </p>
 </template>
 
 <script>
 export default {
-  name: "Escena",
+  name: 'Escena',
   props: {
     frases: Array,
     currentSentence: Number
@@ -16,13 +16,14 @@ export default {
 
 <style scoped>
 p {
+  background-color: #ffffffbe;
+  padding: .7em;
   border: 2px solid black;
   border-radius: 20px;
-  padding: .5em;
-  text-align: center
+  text-align: center;
 }
 
 .active {
-  background-color: #ff9d9d;
+  background-color: #ffb7b7;
 }
 </style>
